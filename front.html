@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Predictions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .highlight {
+            color: #2979ff;
+        }
+        .search-bar {
+            padding: 5px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        nav a, .sign-in, .sign-up {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .sign-in, .sign-up {
+            background: #2979ff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        main {
+            padding: 20px;
+        }
+        .tabs button {
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: none;
+            background: #eee;
+            cursor: pointer;
+        }
+        .tabs .active {
+            background: #2979ff;
+            color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .green {
+            color: green;
+        }
+        .unlock {
+            background: #ff9800;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .button-class {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const tabs = document.querySelectorAll(".tabs button");
+            tabs.forEach(tab => {
+                tab.addEventListener("click", function() {
+                    tabs.forEach(t => t.classList.remove("active"));
+                    this.classList.add("active");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">ANKIT TALKS <span class="highlight">ZEN</span></div>
+        <input type="text" placeholder="Search Stocks" class="search-bar">
+        <nav>
+            <a href="C:\pojects\screener.html">Screener</a>
+            <a href="C:\pojects\stockidea.html">Stock Ideas</a>
+            <a href="C:\pojects\zenrating.html">Zen Ratings</a>
+            <a href="C:\pojects\service.html">Services</a>
+            
+        </nav>
+    </header>
+    <main>
+        <h1>Stock Predictions & Stock Market Forecast 2025 - 2029</h1>
+        <p>View analyst forecasts, price targets, buy/sell ratings, and more.</p>
+        <button class="add-filters">+ Add Filters</button>
+        <div class="tabs">
+            <a href="file:///C:/pojects/EARNING.HTML" class="button-class">Forecast</a>
+            <a href="file:///C:/pojects/EARNING.HTML" class="button-class">Earnings & Revenue</a>
+            <a href="file:///C:/pojects/dividens.html" class="button-class">Dividends</a>
+            <a href="file:///C:/pojects/owner.html" class="button-class">ownership</a>
+            <a href="C:\pojects\technicals.html" class="button-class">technicals</a>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ticker</th>
+                    <th>Company</th>
+                    <th>Forecast Score</th>
+                    <th>Market Cap</th>
+                    <th>Price</th>
+                    <th>Price Target</th>
+                    <th>Upside/Downside</th>
+                    <th>Consensus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a>AAPL</a></td>
+                    <td>APPLE INC</td>
+                    <td>11</td>
+                    <td>$3.60T</td>
+                    <td>$238.26</td>
+                    <td>$245.25</td>
+                    <td class="green">+2.93%</td>
+                    <td><button class="unlock">Unlock</button></td>
+                </tr>
+                 <tr>
+                    <td><a>AAPL</a></td>
+                    <td>APPLE INC</td>
+                    <td>11</td>
+                    <td>$3.60T</td>
+                    <td>$238.26</td>
+                    <td>$245.25</td>
+                    <td class="green">+2.93%</td>
+                    <td><button class="unlock">Unlock</button></td>
+                </tr>
+                 <tr>
+                    <td><a>AAPL</a></td>
+                    <td>APPLE INC</td>
+                    <td>11</td>
+                    <td>$3.60T</td>
+                    <td>$238.26</td>
+                    <td>$245.25</td>
+                    <td class="green">+2.93%</td>
+                    <td><button class="unlock">Unlock</button></td>
+                </tr>
+                 <tr>
+                    <td><a>AAPL</a></td>
+                    <td>APPLE INC</td>
+                    <td>11</td>
+                    <td>$3.60T</td>
+                    <td>$238.26</td>
+                    <td>$245.25</td>
+                    <td class="green">+2.93%</td>
+                    <td><button class="unlock">Unlock</button></td>
+                </tr>
+                 <tr>
+                    <td><a>AAPL</a></td>
+                    <td>APPLE INC</td>
+                    <td>11</td>
+                    <td>$3.60T</td>
+                    <td>$238.26</td>
+                    <td>$245.25</td>
+                    <td class="green">+2.93%</td>
+                    <td><button class="unlock">Unlock</button></td>
+                </tr>
+                 <tr>
+                    <td><a>AAPL</a></td>
+                    <td>APPLE INC</td>
+                    <td>11</td>
+                    <td>$3.60T</td>
+                    <td>$238.26</td>
+                    <td>$245.25</td>
+                    <td class="green">+2.93%</td>
+                    <td><button class="unlock">Unlock</button></td>
+                </tr>
+                 <tr>
+                    <td><a>AAPL</a></td>
+                    <td>APPLE INC</td>
+                    <td>11</td>
+                    <td>$3.60T</td>
+                    <td>$238.26</td>
+                    <td>$245.25</td>
+                    <td class="green">+2.93%</td>
+                    <td><button class="unlock">Unlock</button></td>
+                </tr>
+                 <tr>
+                    <td><a>AAPL</a></td>
+                    <td>APPLE INC</td>
+                    <td>11</td>
+                    <td>$3.60T</td>
+                    <td>$238.26</td>
+                    <td>$245.25</td>
+                    <td class="green">+2.93%</td>
+                    <td><button class="unlock">Unlock</button></td>
+                </tr>
+               
+              
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
